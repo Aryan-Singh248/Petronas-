@@ -1,0 +1,9 @@
+The "Smart Parking System" project is focused on creating a system that utilizes sensor technology to help drivers find available parking spots in real-time. The system will consist of hardware and software components that work together to make parking more efficient and convenient.
+
+The hardware component of the system will consist of sensors installed in parking spaces that detect the presence of a vehicle. The sensors will communicate with a microcontroller that will process the data and send it to a central server. The software component of the system will consist of a mobile application that drivers can use to find available parking spots in real-time.
+
+When a driver enters a parking lot, they will use the mobile application to locate available parking spots. The application will communicate with the central server, which will provide real-time data on available parking spots. The driver can then navigate to the nearest available parking spot and park their vehicle.
+
+The system will also include a payment component that will allow drivers to pay for parking directly through the mobile application. This will eliminate the need for drivers to use physical parking meters or pay stations.
+
+The Smart Parking System will not only make parking more efficient and convenient for drivers, but it will also reduce traffic congestion and carbon emissions by minimizing the time spent searching for available parking spots.
