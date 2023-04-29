@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+   int available_spots = 10;
+   int occupied_spots = 0;
+   int selected_spot;
+
+   while (1) {
+      printf("Available spots: %d\n", available_spots);
+      printf("Occupied spots: %d\n", occupied_spots);
+      printf("Enter a spot number to park or -1 to exit: ");
+      scanf("%d", &selected_spot);
+
+      if (selected_spot == -1) {
+         printf("Exiting...\n");
+         break;
+      } else if (selected_spot <= 0 || selected_spot > 10) {
+         printf("Invalid spot number. Please try again.\n");
+      } else if (available_spots == 0) {
+         printf("Sorry, all spots are currently occupied. Please try again later.\n");
+      } else {
+         printf("Parking in spot %d...\n", selected_spot);
+         available_spots--;
+         occupied_spots++;
+      }
+   }
+
+   return 0;
+}
